@@ -3,7 +3,8 @@
 这个工程是来练习 [WindowInsetsControllerCompat](https://developer.android.com/reference/androidx/core/view/WindowInsetsControllerCompat) 的代码。
 
 一直以来 Android 的沉浸式都是一个让我感觉到很麻烦的事情，之前 Android 官方文档使用 `View#systemUiVisibility` 来实现的，而各种 flag 理解和记忆都很麻烦。
-Android 最新是推荐我们使用 WindowInsetsControllerCompat 来控制 Android 的窗口，包含了 statusBar 和 navigationBar。
+
+Android 最新是推荐我们使用 WindowInsetsControllerCompat 来控制 Android 的窗口，包含statusBar 和 navigationBar。我们可以根据实际需要很简单的完成想要的效果。
 
 ## 让内容延伸到 statusBar
 <img src="arts/img.png" alt="screenshot" title="screenshot" width="360" height="780" />
